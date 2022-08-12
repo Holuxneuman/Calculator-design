@@ -1,0 +1,122 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calculator {
+    width: 233px;
+    height: 450px;
+    border: 5px groove rgb(212, 30, 10);
+    border-radius: 15px; 
+    margin: 80px auto;
+    background-color: salmon;
+    padding-left: 4px;
+}
+
+.calc-display {
+    width: 215px;
+    height: 160px;
+    border: 5px groove antiquewhite;
+    border-radius: 10px; 
+    margin: 5px auto;
+    margin-top: 15px;
+    margin-bottom: 19px;
+    background-color: antiquewhite;
+    
+}
+
+.functionkey {
+    float: left;
+    width:55px;
+    height: 40px;
+    border-radius: 5px; 
+    margin: 1px;
+    margin-bottom: 8px;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #010124;
+    box-shadow: 0px 0px 6px salmon,
+            -1px -1px 6px;
+    font-weight: bolder;
+    
+}
+
+.sign {
+    float: left;
+    width:55px;
+    height: 40px;
+    border-radius: 5px; 
+    margin: 1px;
+    margin-bottom: 8px;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    box-shadow: 1px 1px 2px salmon,
+            -1px -1px 2px;
+    font-weight: bolder;       
+}
+
+.num {
+    float: left;
+    width:55px;
+    height: 40px;
+    border-radius: 5px; 
+    margin: 1px;
+    margin-bottom: 8px;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    box-shadow: 0px 0px 2px salmon,
+                -1px -1px 2px;
+    font-weight: bolder;
+}
+
+#zero {
+    width:55px;
+    height: 40px;
+    margin: 1px;
+    color: antiquewhite;
+    box-shadow: 0px 0px 6px salmon,
+                -1px -1px 6px;
+    font-weight: bolder;
+}
+    
+#point {
+        width:55px;
+        height: 40px;
+        margin: 1px;
+        color: antiquewhite;
+        box-shadow: 0px 0px 6px salmon,
+                     -1px -1px 6px;
+        font-weight: bolder;
+}
+
+#equalsign {
+    width:110px;
+    height: 40px;
+    margin: 2px;
+    color: antiquewhite;
+    box-shadow: 0px 0px 6px salmon,
+                 -1px -1px 6px;
+    font-weight: bolder;
+    background-color: rgb(212, 30, 10);
+}
+
+h1 {
+    font-size: 24px;
+    float: left;
+}
+
+span {
+    font-size: 14px;
+    float: right;
+    margin-top: 60px;
+    
+}
